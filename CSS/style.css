@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sectionOne{
     height: 70vh;
     width: 100%;
-    /* background-color: aqua; */
 }
 
 .navbar{
@@ -15,25 +16,23 @@
     display: flex;
     justify-content: space-between;
     align-items:  center;
-    /* background-color: blue; */
 }
 
 .banner{
     height:87%;
     width: 100%;
-    /*background-color: brown;*/
     background-image: url('../images/banner.webp');
     background-position:center;
     background-size:cover ;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .logo{
     font-size: 34px;
     font-weight: 700;
-    color: firebrick;
+    color: #e42a12;
     margin-left: 20px;
 }
 .navigation-item li {
@@ -47,14 +46,16 @@
     font-size: 25px;
 }
 .signInButton a{
-    background-color: firebrick;
+    background-color: #e42a12;
     color: white;
-    padding: 20px;
-    border-radius: 30px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    font-size: 18px;
 }
 
 .holder1{
     margin-top: 170px;
+    
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(65, 63,63);
     font-weight: lighter;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .button1{
     background-color: rgb(216, 68, 25);
@@ -85,21 +87,22 @@
     margin-top: 10px;
     border: none;
 }
-/*SECTION TWO */
+/* End Of Section One */
+
+
+/*Start Of Section Two */
 .sectionTwo{
-    height: 75vh;
-    width: 100vw;
-    /*background-color: aqua;*/
+    height: 85vh;
+    width: 100%;
 }
 
 .header{
-    height: 20;
-    width: 100;
+    height: 20%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   /* background-color: bisque;*/
 }
 
 .header h2{
@@ -110,19 +113,25 @@
 }
 
 .body{
-    height: 85%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: bisque;*/
-
 }
-
+.body li{
+    font-size: 15px;
+    line-height: 2.0;
+    list-style: none;
+}
+.body span{
+    color: green;
+    padding-right: 7px;
+    font-weight: bolder;
+}
 .principle{
     height: 75%;
     width: 25%;
-   /* background-color: blueviolet;*/
 }
 
 .principle .image{
@@ -137,7 +146,6 @@
     height: 40%;
     width: 100%;
     font-size: 20px;
-    /*background-color: aquamarine;*/
 }
 
 .principle h3{
@@ -162,18 +170,21 @@
 }
 /* END OF SECTION TWO */
 
+
 /* START OF SECTION THREE */
 .sectionthree{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imgholder{
     width: 49%;
     height: 100%;
     background-image: url('../images/Section4.jpg');
-    background-position: initial;
+    background-position: center;
     background-size: cover;
 }
 
@@ -182,7 +193,10 @@
     height: 100%;
     background-color: rgb(255, 148, 110,.2);
     display: flex;
+    flex-direction: column;
+    align-items: start;
     justify-content: center;
+    padding-left: 50px;
 }
 .heading1{
     font-family: sans-serif;
@@ -202,7 +216,7 @@
     margin-bottom: 15px;
     margin-left: 15px;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 40px;
     color: rgb(47, 43, 43);
@@ -217,16 +231,29 @@
     font-size: 15px;
     font-weight: 600;
 }
+.sectionthree ul{
+    list-style: none;
+    margin-left: -17px;
+    margin-top: 10px;
+}
+.lists4 span{
+    color: #e42a12;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 7px;
+}
 /* END OF SECTION THREE */
 
-/* START OF SECTION THREE */
+
+/* START OF SECTION FOUR */
 .sectionfour{
-    width: 108vw;
+    width: 100%;
     height: 60vh;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space space-between;
+    justify-content: center;
+    align-items: center;
 }
 .heading2{
     text-align: center;
@@ -242,21 +269,21 @@
     color: rgb(132, 133, 134);
 }
 .wrapper{
-    width: 80%;
-    height: 34%;
+    width: 85%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 .recipe{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 25%;
-    height: 150px;
-    background-color: blue;
+    width: 28%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     margin-right: 28px;
@@ -291,36 +318,32 @@
     background-color: #c8f5da;
     color: #12994a;
 }
-.btnvm{
-    background-color: #e42a12;
-    border-radius: 30px;
-    border-style: none;
-    color: white;
-    width: 150px;
-    height: 200px;
+
+.sectionfour button{
+    padding: 20px 50px;
     font-size: 15px;
+    letter-spacing: 1.2px;
     font-weight: 600;
-    margin-left: 43%;
-    margin-top: -70px;
-    margin-bottom: 70px;
+    border: none;
+    color: white;
+    background-color: #e42a12;
+    margin-bottom: 30px;
+    border-radius: 35px;
 }
+/* End of Section Four */
 
 
-/* section five */
+/* Start of Section Five */
 .sectionfive{
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     background-color: #f3f4f6;
-
 }
 .sectionfive .header{
-    height: 15%;
+    height: 20%;
     width: 100%;
-    /* background-color: #c8f5da; */
     display: flex;
     flex-direction: row;
-    
-
 }
 .sectionfive .instalogo{
     height: 40px;
@@ -335,17 +358,14 @@
     text-decoration: underline;
 }
 .sectionfive .image{
-    height: 65%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
-    /* margin-right: 20px; */
-
 }
 .sectionfive .reviews{
-    height: 67%;
+    height: 100%;
     width: 18%;
     margin-right: 20px;
     background-position: center;
@@ -365,12 +385,14 @@
 }
 
 .sectionfive .imagedescription{
-    height: 20%;
+    height: 40%;
     width: 100%;
     text-align: center;
     margin-bottom: -5;
-    /* background: aqua; */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .sectionfive .mealsserved{
     color: #e86353;
@@ -393,11 +415,13 @@
     color: #5a5a5a;
     
 }
+/* End Of section Five */
 
-/* sectionsix */
+
+/* Start Of Section Six */
 .sectionsix{
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     background-image: url('../images/backgroundlast.webp');
     background-position: center;
     background-size: cover;
@@ -418,7 +442,6 @@
 .sectionsix h1{
     font-size: 40px;
     font-weight: 600;
-    /* margin-top: 20px; */
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -452,9 +475,7 @@
 .sectionsix a{
     background-color: #e42a12;
     text-decoration: none;
-    width: 50%;
-    height: 50px;
-    padding: 4.5px 10px 7.5px 10px;
+    padding: 8px 10px 14px 10px;
     border-radius: 0 5px 5px 0;
     border-style: none;
     color: white;
@@ -463,7 +484,7 @@
     font-weight: 600;
 }
 .sectionsix input{
-    height: 30px;
+    height: 45px;
     width: 250px;
     border-radius: 5px 0  0 5px;
     border: solid 1px #959595;
@@ -473,22 +494,24 @@
 .sectionsix label{
     margin-left: -258px;
     color: #c9cbcf;
-    /* margin-bottom: 20px; */
 }
+/* End Of Section Six */
+
+
 /* start of section Seven */
 .sectionseven{
-    width: 100vw;
-    height: 70vh;
+    width: 100%;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fafafa;
+    text-decoration: none;
 }
 .sectionseven .header{
     height: 15%;
     width: 70%;
-    /* background-color: white; */
 }
 .sectionseven .heading{
     color: #e6432d;
@@ -498,18 +521,18 @@
     width: 70%;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     margin-left: -70px;
-    /* background-color: #122099; */
 }
 .first .contacts{
     text-align: right;
     margin-left: 700px;
 }
 .first .contactus{
-    text-align: right;
     margin-right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .first .exp{
     color: #6f6f6f;
@@ -519,19 +542,26 @@
 }
 .sectionseven .second{
     height: 25%;
-    width: 70%;
-    
+    width: 70%;  
 }
 .sectionseven .third{
     height: 20%;
     width: 70%;
-    
 }
-.sectionseven.moreinfo{
-    width: 70%;
-    text-align: right;
-    margin-right: -50px;
-    
+.sectionseven .moreinfo{
+    width: 70%; 
+}
+.moreinfo .exp{
+    font-weight: 700;
+    color: black;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.contactus .exp{
+    font-weight: 700;
+    color: black;
+    font-size: 19px;
+    margin-bottom: 10px;
 }
 .sectionseven .blog{
     height: 50px;
@@ -545,18 +575,20 @@
     align-items: center;
 }
 .sectionseven input{
-    height: 30px;
-    width: 250px;
+    height: 45px;
+    width: 200px;
     border-radius: 5px 0  0 5px;
     border: solid 1px #959595;
     margin-top: 10px;
 }
+.sectionseven label{
+    color: #525252;
+    font-size: 15px;
+}
 .sectionseven .Subscribe{
     background-color: #e42a12;
     text-decoration: none;
-    width: 50%;
-    height: 50px;
-    padding: 4.5px 10px 7.5px 10px;
+    padding: 9px 10px 13px 10px;
     border-radius: 0 5px 5px 0;
     border-style: none;
     color: white;
@@ -576,15 +608,15 @@
 .sectionseven .reviews{
     margin-bottom: 10px;
 }
-.sectionseven .Follow{
-    margin-left: 90px;
-}
 .sectionseven .google{
     height: 30px;
     margin-bottom: -7px;
 }
 
 .sectionseven .rates{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     margin-left: 230px;
     margin-right: 150px;
 }
@@ -595,9 +627,9 @@
 .sectionseven h4{
     margin-bottom: 20px;
 }
-
-.sectionseven .mediaz{
-    height: 30px;
+.icons .fa-brands{
+    font-size: 30px;
+    margin-left: 15px;
 }
 .sectionseven .third{
     display: flex;
@@ -611,9 +643,19 @@
     color: red;
 }
 .third p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .third .fa-solid{
     color: #e42a12;
+    margin-right: 5px;
+    font-size: 25px;
 }
-
+.sectionseven .media{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.sectionseven .media a{
+    text-decoration: none;
+}
