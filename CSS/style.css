@@ -510,35 +510,79 @@
     text-decoration: none;
 }
 .sectionseven .header{
-    height: 15%;
+    height: 20%;
     width: 70%;
 }
 .sectionseven .heading{
     color: #e6432d;
 }
 .sectionseven .first{
-    height: 40%;
-    width: 70%;
+    height: 35%;
+    width: 67%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-left: -70px;
 }
-.first .contacts{
-    text-align: right;
-    margin-left: 700px;
+.first .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
 }
-.first .contactus{
-    margin-right: -450px;
+.left .one{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left .two{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left .three{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left a{
+    text-decoration: none;
+    line-height: 2.0;
+    color: #888181;
+    font-size: 15px;
+}
+.first .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.right p{
+    font-size: 15px;
+    line-height: 2.0;
+    color: #525252;
+}
+.right .ourblog{
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
 }
-.first .exp{
-    color: #6f6f6f;
+.right img{
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
-.first .last{
-    color: #bdbfc3;
+.right .contacts{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .sectionseven .second{
     height: 25%;
@@ -548,27 +592,11 @@
     height: 20%;
     width: 70%;
 }
-.sectionseven .moreinfo{
-    width: 70%; 
-}
-.moreinfo .exp{
-    font-weight: 700;
-    color: black;
-    font-size: 19px;
-    margin-bottom: 10px;
-}
-.contactus .exp{
-    font-weight: 700;
-    color: black;
-    font-size: 19px;
-    margin-bottom: 10px;
-}
 .sectionseven .blog{
     height: 50px;
     width: 100px;
     border-radius: 10px;
 }
-
 .sectionseven .second{
     display: flex;
     justify-content: center;
@@ -601,10 +629,6 @@
     font-size: 20px; 
     margin-right: -5px;
 }
-.sectionseven p{
-    margin-left: 50px;
-}
-
 .sectionseven .reviews{
     margin-bottom: 10px;
 }
@@ -621,7 +645,7 @@
     margin-right: 150px;
 }
 .sectionseven h4{
-    font-size: 18px;
+    font-size: 15px;
     color: #676767;
 }
 .sectionseven h4{
